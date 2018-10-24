@@ -1,8 +1,8 @@
 
 library(igraph)
 
-el <- read.csv("https://raw.githubusercontent.com/hdm-gk038/Lobby/master/226305_Projekt_Lobbyarbeit_Edgelist.csv", header=T, as.is=T, quote="", sep = ",")
-nl <- read.csv("https://raw.githubusercontent.com/hdm-gk038/Lobby/master/226305_Projekt_Lobbyarbeit_Nodelist.csv", header=T, as.is=T, quote="", sep = ",")
+el <- read.csv("https://raw.githubusercontent.com/hdm-gk038/Lobby/master/226305_Projekt_Lobbyarbeit_Edgelist.csv", header=T, as.is=T, quote="", sep = ",", fileEncoding="UTF-8")
+nl <- read.csv("https://raw.githubusercontent.com/hdm-gk038/Lobby/master/226305_Projekt_Lobbyarbeit_Nodelist.csv", header=T, as.is=T, quote="", sep = ",", fileEncoding="UTF-8")
 
 head(el)
 head(nl)
