@@ -20,6 +20,7 @@ label <- V(g)$label
 colrs <- c("yellowgreen", "deepskyblue3", "darkorange2")
 V(g)$color <- colrs[V(g)$type]
 
+V(g)$shape = "circle"
 thema <- V(g)[type == "3"]
 thema
 V(g)[thema]$shape = "square"
